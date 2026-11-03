@@ -1,0 +1,17 @@
+{
+  "nombre": "Toma de huellas",
+  "url": "https://icp.administracionelectronica.gob.es/icpplus/index.html",
+  "intervaloSegundos": 150,
+  "sinCitas": ["no hay citas disponibles", "no hi ha cites disponibles"],
+  "pasos": [
+    { "accion": "select", "selector": "#form", "valor": "{{provincia}}" },
+    { "accion": "click", "selector": "#btnAceptar" },
+    { "accion": "select", "selector": "#tramiteGrupo\\[0\\]", "valor": "{{tramite}}" },
+    { "accion": "click", "selector": "#btnAceptar" },
+    { "accion": "click", "selector": "#btnEntrar" },
+    { "accion": "fill", "selector": "#txtIdCitado", "valor": "{{nie}}" },
+    { "accion": "fill", "selector": "#txtDesCitado", "valor": "{{nombre}}" },
+    { "accion": "humano", "mensaje": "Resuelve el captcha en el navegador" },
+    { "accion": "click", "selector": "#btnEnviar" }
+  ]
+}
