@@ -1,11 +1,20 @@
 {
   "provincia": "Barcelona",
-  "tramite": "POLICIA-TOMA DE HUELLAS (EXPEDICIÓN DE TARJETA) Y RENOVACIÓN DE TARJETA DE LARGA DURACIÓN",
+  "tramite": "TOMA DE HUELLAS",
   "oficinas": [],
   "persona": {
     "nie": "X1234567A",
     "nombre": "NOMBRE APELLIDOS",
     "pais": "EGIPTO"
   },
-  "intervaloSegundos": 150
+  "intervaloSegundos": 3600,
+  "esperaCaptchaMinutos": 10,
+  "horarios": [],
+  "avisos": {
+    "captcha": false,
+    "bloqueo": true
+  },
+  "canal": "",
+  "variacion": 0.15,
+  "headless": false
 }

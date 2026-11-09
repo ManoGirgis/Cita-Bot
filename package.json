@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^18.0.9",
     "node-fetch": "^3.3.2",
     "playwright": "^1.64.1"
   }
